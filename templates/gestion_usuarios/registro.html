@@ -1,0 +1,12 @@
+{% extends "base/base.html" %}
+{% load static %}
+{% load crispy_forms_tags %}
+{% block content %}
+<form action="" method="post" style="color: white;">
+    {% csrf_token %}
+    <div style="width: 75%;margin: auto;">
+        {{mi_formulario|crispy}}
+        <button type="submit" class="btn btn-success">registrate</button>
+    </div>
+</form>
+{% endblock %}
