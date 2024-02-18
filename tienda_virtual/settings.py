@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-%-f!-t-%(!=e3hi^dn72(3n^74^tus^e1^#!_-=7!gnul)bihw
 DEBUG = True
 #  BlacKSherU Coment declarar esto para usar tu servidor wifi ;)
 # ALLOWED_HOSTS = ["192.168.68.105"]
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
